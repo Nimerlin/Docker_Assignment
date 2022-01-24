@@ -1,0 +1,7 @@
+!/bin/bash
+#script to generate random value with index
+
+for val in ${!Random[@]}
+do
+	   echo "index = ${val} , value = ${Random[$val]}"
+   done

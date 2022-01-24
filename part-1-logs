@@ -1,0 +1,73 @@
+
+Welcome to [0;31mCentOS Linux 8 (Core)[0m!
+
+[[0;32m  OK  [0m] Listening on udev Control Socket.
+[[0;32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[0;32m  OK  [0m] Reached target Network is Online.
+[[0;32m  OK  [0m] Listening on initctl Compatibility Named Pipe.
+[[0;32m  OK  [0m] Listening on Journal Socket (/dev/log).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Reached target Swap.
+[[0;32m  OK  [0m] Listening on Process Core Dump Socket.
+[[0;32m  OK  [0m] Reached target Slices.
+[[0;32m  OK  [0m] Reached target Local File Systems.
+[[0;32m  OK  [0m] Listening on Journal Socket.
+         Starting Rebuild Hardware Database...
+         Starting Read and set NIS domainname from /etc/sysconfig/network...
+         Mounting Kernel Debug File System...
+         Starting Journal Service...
+         Starting Rebuild Journal Catalog...
+         Starting Rebuild Dynamic Linker Cache...
+         Starting Restore /run/initramfs on shutdown...
+[[0;32m  OK  [0m] Listening on udev Kernel Socket.
+         Starting Load/Save Random Seed...
+[[0;32m  OK  [0m] Set up automount Arbitrary Executab…rmats File System Automount Point.
+         Starting Apply Kernel Variables...
+         Starting Create System Users...
+[[0;32m  OK  [0m] Started Dispatch Password Requests to Console Directory Watch.
+[[0;32m  OK  [0m] Reached target Local Encrypted Volumes.
+[[0;32m  OK  [0m] Reached target Paths.
+         Starting udev Coldplug all Devices...
+[[0;32m  OK  [0m] Started Rebuild Hardware Database.
+[[0;32m  OK  [0m] Started Read and set NIS domainname from /etc/sysconfig/network.
+[[0;32m  OK  [0m] Mounted Kernel Debug File System.
+[[0;32m  OK  [0m] Started Rebuild Journal Catalog.
+[[0;32m  OK  [0m] Started Restore /run/initramfs on shutdown.
+[[0;32m  OK  [0m] Started Load/Save Random Seed.
+[[0;32m  OK  [0m] Started Apply Kernel Variables.
+[[0;32m  OK  [0m] Started Create System Users.
+         Starting Create Static Device Nodes in /dev...
+[[0;32m  OK  [0m] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[[0;32m  OK  [0m] Started udev Coldplug all Devices.
+[[0;32m  OK  [0m] Started Rebuild Dynamic Linker Cache.
+         Starting Update is Completed...
+[[0;32m  OK  [0m] Started Update is Completed.
+[[0;32m  OK  [0m] Started Journal Service.
+         Starting Flush Journal to Persistent Storage...
+[[0;32m  OK  [0m] Started Flush Journal to Persistent Storage.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Started udev Kernel Device Manager.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting Permit User Sessions...
+         Starting Crash recovery kernel arming...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Cleanup of Temporary Directories...
+         Starting dnf makecache...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+[[0;32m  OK  [0m] Reached target Multi-User System.
+         Starting Update UTMP about System Runlevel Changes...
+[[0;32m  OK  [0m] Started Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Started Update UTMP about System Runlevel Changes.
+[[0;1;31mFAILED[0m] Failed to start Crash recovery kernel arming.
+See 'systemctl status kdump.service' for details.
+[[0m[0;31m*     [0m] A start job is running for dnf makecache (5s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dnf makecache (5s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dnf makecache (6s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dnf makecache (6s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dnf makecache (7s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dnf makecache (7s / no limit)[K[[0;32m  OK  [0m] Started dnf makecache.
